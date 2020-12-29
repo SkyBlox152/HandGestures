@@ -1,0 +1,74 @@
+body
+{
+  color: white;
+  background-image: linear-gradient(to right top, #000000, #2b3a44cb, #1c293133, #535353, #e6eaeb);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed white;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading
+{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+ label{
+   font-style: italic;
+   color: white;
+   font-family: fantasy;
+   font-weight: lighter;
+   font-size:25 ;
+   text-shadow: -2px 3px 3px blue;
+ }
+ .b5{
+   position: relative;
+  font-style: italic;
+  color: white;
+  font-family: fantasy;
+  font-weight: lighter;
+  font-size:25 ;
+  text-shadow: -2px 3px 3px blue;
+  animation:mymove 4s infinite;
+ }
+ @keyframes mymove{
+   0%{color:black; top: 0px;left:0px;}
+   50%{top: 0px; color:white; left:100px;}
+   100%{top: 0px;left:0px; color: grey;}
+ }
+
+ #camera{
+  background-color: white;
+  text-shadow: -2px 3px 3px blue
+ }
+ #result{
+  background-color: white;
+  text-shadow: -2px 3px 3px blue
+ }
+
+ #b5{
+  font-style: italic;
+  color: white;
+  font-family: fantasy;
+  font-weight: lighter;
+  font-size:25 ;
+  text-shadow: -2px 3px 3px blue;
+ }
